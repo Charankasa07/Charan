@@ -1,0 +1,33 @@
+p{
+	color:floralwhite;
+	font-family: verdana;
+	padding: 5px;
+}
+h1,h2{
+	color: tomato;
+	font-family: serif;
+}
+.column{
+	float: left;
+	width: 15%;
+	padding: 5px;
+}
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.image{
+	height: 150px;
+	width: 150px;
+	border-radius: 60%;
+}
+#image{
+	height:790px ;
+	width: 280px;
+	margin: 10px 10px;
+	border-radius: 5%;
+}
+b{
+	color:dodgerblue;
+}
