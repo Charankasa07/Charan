@@ -3,7 +3,11 @@ p{
 	font-family: verdana;
 	padding: 5px;
 }
-h1,h2{
+h1{
+	color: goldenrod;
+	font-family:sans-serif;
+}
+h2{
 	color: tomato;
 	font-family: serif;
 }
